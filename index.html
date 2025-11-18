@@ -1,25 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>pagina login</title>
-</head>
-<body>
-  <form action="/processar-login" method="POST">
-        
-        <h2>Acesso ao Sistema</h2>
-        
-        <div>
-            <label for="user">Usuário ou Email:</label>
-            <input type="text" id="user" name="username" required>
-        </div>
-        
-        <div>
-            <label for="pass">Senha:</label>
-            <input type="password" id="pass" name="password" required>
-        </div>
-        
-        <button type="submit">Entrar</button>
-</body>
-</html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login</title>
+
+<style>
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background: #c6e6ff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .container {
+        width: 900px;
+        height: 500px;
+        background: rgb(161, 77, 136);
+        display: flex;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  
