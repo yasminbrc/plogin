@@ -6,6 +6,20 @@
   <title>pagina login</title>
 </head>
 <body>
-  
+  <form action="/processar-login" method="POST">
+        
+        <h2>Acesso ao Sistema</h2>
+        
+        <div>
+            <label for="user">Usuário ou Email:</label>
+            <input type="text" id="user" name="username" required>
+        </div>
+        
+        <div>
+            <label for="pass">Senha:</label>
+            <input type="password" id="pass" name="password" required>
+        </div>
+        
+        <button type="submit">Entrar</button>
 </body>
 </html>
